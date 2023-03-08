@@ -1,0 +1,10 @@
+variables:
+  STAGING_ENABLED: 'true'
+  PROD_BASE_DOMAIN: 'octape.io'
+  INGRESS_HOSTNAME: 'api'
+  INGRESS_PATH: '/hemera'
+  RELEASE_SCRIPT_ARGS: '--set liveness.path=/api/status --set readiness.path=/api/status'
+  SKIP_TESTS: 'true'
+include:
+  - project: 'devops/pipeline'
+    file: '/templates/dsync-auto.gitlab-ci.yml'

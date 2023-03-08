@@ -1,0 +1,75 @@
+[
+    {
+      "code": "S001",
+      "title": "unable to find role by name",
+      "status": 404,
+      "type": "https://support.servdeck.com/problem/octape/S001"
+    },
+    {
+      "code": "S002",
+      "title": "project already exists with that name",
+      "status": 400,
+      "type": "https://support.octape.io/problem/octape/S002"
+    },
+    {
+      "code": "S003",
+      "title": "unable to find default user role",
+      "status": 404,
+      "type": "https://support.servdeck.com/problem/octape/S003"
+    },
+    {
+      "code": "S004",
+      "title": "unable to parse string to object id",
+      "status": 400,
+      "type": "https://support.servdeck.com/problem/octape/S004"
+    },
+    {
+      "code": "S005",
+      "title": "unable to find user by id",
+      "status": 404,
+      "type": "https://support.servdeck.com/problem/octape/S005"
+    },
+    {
+      "code": "S006",
+      "title": "consumer already exists with that name",
+      "status": 400,
+      "type": "https://support.servdeck.com/problem/octape/S006"
+    },
+    {
+      "code": "S007",
+      "title": "unable to find consumer by id",
+      "status": 404,
+      "type": "https://support.servdeck.com/problem/octape/S007"
+    },
+    {
+      "code": "S008",
+      "title": "no token found with the given opaque",
+      "status": 404,
+      "type": "https://support.servdeck.com/problem/octape/S009"
+    },
+    {
+      "code": "S009",
+      "title": "scope already exists with that selector",
+      "status": 400,
+      "type": "https://support.servdeck.com/problem/octape/S009"
+    },
+    {
+      "code": "S010",
+      "title": "unable to find scope by id",
+      "status": 404,
+      "type": "https://support.servdeck.com/problem/octape/S010"
+    },
+    {
+      "code": "S011",
+      "title": "invalid token provided",
+      "status": 403,
+      "type": "https://support.servdeck.com/problem/octape/S011"
+    },
+    {
+      "code": "S012",
+      "title": "unable to find saved consent by id",
+      "status": 404,
+      "type": "https://support.servdeck.com/problem/octape/S012"
+    }
+  ]
+  
